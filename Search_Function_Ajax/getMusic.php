@@ -4,9 +4,9 @@
 $q = ($_GET['q']);
 $sign = "%";
 
-$servername = "din servernamn";
-$username = "din användarnamn";
-$password = "ditt lösenord";
+$servername = "localhost:din port";
+$username = "root";
+$password = "";
 $dbname = "namn på din db";
 
 $con = mysqli_connect($servername,$username,$password,$dbname);
